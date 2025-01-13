@@ -1,7 +1,9 @@
 <?php
 session_start();
 
-$_SESSION['message'] = 'Hello from index file!'; // Раскомментируйте, чтобы поместить в массив SESSION это сообщение.
+$_SESSION['message'] = 'Hello from index file!';
+// Раскомментируйте, чтобы поместить в массив SESSION это сообщение.
+
 $app = 'users';
 $view = 'index';
 $dbPath = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'pdo' . DIRECTORY_SEPARATOR;
